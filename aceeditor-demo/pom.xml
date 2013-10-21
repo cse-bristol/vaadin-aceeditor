@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.vaadin.addons</groupId>
+		<groupId>uk.org.cse.vaadin.addons</groupId>
 		<artifactId>aceeditor-parent</artifactId>
 		<version>0.8.10-SNAPSHOT</version>
 		<relativePath>..</relativePath>
@@ -40,7 +40,7 @@
 			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.vaadin.addons</groupId>
+			<groupId>uk.org.cse.vaadin.addons</groupId>
 			<artifactId>aceeditor</artifactId>
 			<version>${project.version}</version>
 		</dependency>
