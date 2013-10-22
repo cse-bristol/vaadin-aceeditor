@@ -11,10 +11,10 @@
 
 	<scm>
 	  <connection>
-		scm:git:ssh://git@github.com:cse-bristol/vaadin-aceeditor.git
+		scm:git:ssh://git@github.com/cse-bristol/vaadin-aceeditor.git
 	  </connection>
 	  <developerConnection>
-		scm:git:ssh://git@github.com:cse-bristol/vaadin-aceeditor.git
+		scm:git:ssh://git@github.com/cse-bristol/vaadin-aceeditor.git
 	  </developerConnection>
 	  <tag>HEAD</tag>
 	</scm>
