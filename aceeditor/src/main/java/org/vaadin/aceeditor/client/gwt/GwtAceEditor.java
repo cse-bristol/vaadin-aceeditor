@@ -27,7 +27,8 @@ public class GwtAceEditor extends JavaScriptObject {
 		parent.appendChild(aceDiv);
 		
 		var editor = $wnd.ace.edit(aceDiv);
-		
+
+		aceDiv.__the_editor = editor;
 		
 		return editor;
 	}-*/;
