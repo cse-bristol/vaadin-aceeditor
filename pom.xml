@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.org.cse.vaadin.addons</groupId>
 	<artifactId>aceeditor-parent</artifactId>
-	<version>0.8.11-SNAPSHOT</version>
+	<version>0.8.11</version>
 	<packaging>pom</packaging>
 
 	<name>Vaadin AceEditor Parent Project</name>
@@ -15,7 +15,7 @@
 	  <developerConnection>
 		scm:git:ssh://git@github.com/cse-bristol/vaadin-aceeditor.git
 	  </developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>aceeditor-parent-0.8.11</tag>
 	</scm>
 
 	<distributionManagement>
