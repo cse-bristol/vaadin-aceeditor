@@ -44,7 +44,7 @@ import com.vaadin.util.ReflectTools;
  * 
  */
 @SuppressWarnings("serial")
-@JavaScript({ "client/js/ace/ace.js", "client/js/diff_match_patch.js" })
+@JavaScript({"client/js/ace/ace.js", "client/js/diff_match_patch.js", "client/js/ace/ext-searchbox.js"})
 @StyleSheet("client/css/ace-gwt.css")
 public class AceEditor extends AbstractField<String> implements BlurNotifier,
 		FocusNotifier, TextChangeNotifier {
