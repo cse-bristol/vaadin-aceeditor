@@ -271,11 +271,9 @@ public class AceEditor extends AbstractField<String> implements BlurNotifier,
 		} else if (onRoundtrip) {
 			ServerSideDocDiff diff = ServerSideDocDiff.diff(shadow, doc);
 			
-			if (!diff.isIdentity()) {
-				shadow = doc;
-				TransportDiff td = diff.asTransport();
-				getRpcProxy(AceEditorClientRpc.class).diff(td);
-			}
+			shadow = doc;
+			TransportDiff td = diff.asTransport();
+			getRpcProxy(AceEditorClientRpc.class).diff(td);
 
 			onRoundtrip = false;
 		} else if (true /* TODO !shadow.equals(doc) */) {
